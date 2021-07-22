@@ -1,0 +1,179 @@
+@media (max-width :  1110px ) {
+    .footer-content .footer-social{
+        margin-left: 25rem;
+    }
+}
+@media (max-width : 992px ) {
+    .home__buttons{
+        flex-direction: column;
+        gap:1.5rem;
+    }
+    .home__buttons .btn-1{
+        padding:1.5rem 15rem;
+    }
+    .home__buttons .btn-2{
+        padding:1.5rem 15rem;
+    }
+    .first-items{
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-items .first-img img{
+        margin:0;
+        max-width:100%;
+    }
+    .first-wrapped{
+        text-align: center;
+    }
+    .first-info .first-wrapped p{
+        width:100%;
+    }
+    .fourth-wrapped{
+        flex-direction: column;
+        row-gap: 5rem;
+    }
+    .fifth-buttons{
+        flex-direction: column;
+        gap:1.5rem
+    }
+    .fifth-buttons .btn-fifth-1{
+        padding: 1.5rem 15rem;
+    }
+    .fifth-buttons .btn-fifth-2{
+        padding: 1.5rem 15rem;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-content .footer-logo{
+        margin-right:0;
+    }
+    .footer-logo{
+        margin:4rem 0;
+    }
+    .footer-content .footer-nav{
+        grid-template-columns: 1fr;
+    }
+    .footer-items{
+        text-align: center;
+        margin-bottom:1.5rem;
+    }
+    .footer-content .footer-social{
+        margin:0;
+    }
+    .footer-social .social-media{
+        margin-top: 4rem;
+    }
+    .social-media i{
+        margin:0 0.8rem;
+    }
+}
+@media (max-width : 768px ) {
+    .home .home__content h1{
+        font-size: 3.2rem;
+        text-align: center;
+    }
+    .home .home__content p{
+        width:100%;
+        font-size: 1.8rem;
+    }
+    .first-content .first-title h2{
+        font-size:3rem;
+    }
+    .first-content .first-title p{
+        font-size:1.7rem;
+        width:100%;
+    }
+    .second-content .second-info h2{
+        font-size: 3rem;
+    }
+    .second-content .second-info p{
+        width:100%;
+    }
+
+    .third-content .third-title h2{
+        font-size: 3rem;
+    }
+    .third-content .third-title p{
+        width:100%;
+        font-size: 1.7rem;
+    }
+    .third-content .third-wrapped{
+        grid-template-columns: 1fr;
+    }
+     .third-info{
+         margin:2.5rem 0;
+     }
+     .fifth-content .fifth-info h2{
+         font-size:3rem;
+     }
+     .fifth-content .fifth-info p{
+         width:100%;
+     }
+}
+@media (max-width :  600px ) {
+    .home__buttons .btn-1{
+        padding:1.5rem 12rem;
+    }
+    .home__buttons .btn-2{
+        padding:1.5rem 12rem;
+    }
+    .second-info h2{
+        text-align: center;
+    }
+    .fifth-content .fifth-info h2{
+        text-align: center;
+    }
+    .fifth-buttons .btn-fifth-1{
+        padding: 1.5rem 12rem;
+    }
+    .fifth-buttons .btn-fifth-2{
+        padding: 1.5rem 12rem;
+    }
+     
+}
+@media (max-width :  480px) {
+    .home__buttons .btn-1{
+        padding:1.5rem 9rem;
+    }
+    .home__buttons .btn-2{
+        padding:1.5rem 9rem;
+    }
+    .fifth-buttons .btn-fifth-1{
+        padding: 1.5rem 9rem;
+    }
+    .fifth-buttons .btn-fifth-2{
+        padding: 1.5rem 9rem;
+    }
+}
+@media (max-width: 375px){
+    .home{
+        background-image: url(../images/bg-header-mobile.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 120px;
+    }
+    .home .home__content h1{
+        font-size: 2.8rem;
+        text-align: center;
+    }
+    .home .home__content p{
+        width: 100%;
+        font-size: 1.7rem;
+    }
+    .second-content .second-info p{
+        width:90%;
+        font-size:1.5rem;
+    }
+    .third-content .third-info p{
+        font-size:1.5rem;
+    }
+    .third-content .third-info:nth-child(3) p{
+        width:90%;
+    }
+    .fifth-content .fifth-info p{
+        font-size: 1.6rem;
+        width:95%;
+    }
+}

@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.6rem;
+}
+.container{
+    max-width: min(90%, 120rem);
+    margin:0 auto;
+}
+
+/*----HOME----*/
+
+.home{
+    background-image: url(../images/bg-header-desktop.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+}
+.home__logo{
+    text-align: center;
+    padding-bottom: 7rem;
+}
+.home__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home__content h1{
+    margin:0;
+    padding-bottom:2rem;
+    font-size: 4.2rem;
+    color: hsl(210, 10%, 33%);
+}
+.home__content p{
+    line-height: 1.5;
+    text-align: center;
+    font-size: 2rem;
+    width:55%;
+    color: hsl(201, 11%, 66%);
+    padding-bottom:5rem;
+}
+.home__buttons{
+    display:flex;
+    column-gap: 4rem;
+}
+.btn-1{
+    background-color: #26baa4;
+    padding:1.5rem 3.8rem;
+    border-radius: 50px;
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 600;
+    border-bottom: 4px solid #26baa4;
+    transition: all 0.4s ease-in-out;
+
+}
+.btn-1:hover{
+    background-color:#59c9b8;
+}
+.btn-2{
+    background-color: #6173ff;
+    padding:1.5rem 3.8rem;
+    border-radius: 50px;
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 600;
+    border-bottom: 4px solid #6173ff;
+    transition: all 0.4s ease-in-out;
+}
+.btn-2:hover{
+    background-color: #7d8bf7;
+}
+
+/*----first----*/
+.first-content{
+    margin-top: 15rem;
+}
+.first-title{
+    margin-bottom:8rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-title h2{
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+    text-align: center;
+    color: hsl(210, 10%, 33%)
+}
+.first-title p{
+    text-align: center;
+    width:60%;
+    font-size: 1.8rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.8;
+}
+.first-items{
+    display:flex;
+    justify-content: space-between;
+    column-gap: 10rem;
+}
+.first-img img{
+    margin-left: -15rem;
+}
+.first-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+.first-wrapped{
+    margin-bottom:5rem;
+}
+.first-wrapped h3{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color:hsl(210, 10%, 33%);
+}
+.first-wrapped p{
+    width:70%;
+    line-height: 1.5;
+    color: hsl(201, 11%, 66%);
+}
+
+/*----SECOND----*/
+
+.second-content{
+    margin-top: 15rem;
+}
+
+.second-info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+.second-info h2{
+    margin-bottom:2rem;
+    font-size: 3.5rem;
+    color:hsl(210, 10%, 33%);
+}
+.second-info p{
+    width:60%;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    color:hsl(201, 11%, 66%);
+}
+.second-img{
+    text-align: center;
+}
+.second-img img{
+    max-width: 100%;
+}
+
+/*----THIRD----*/
+.third-content{
+    margin-top: 12rem;
+}
+.third-title{
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.third-title h2{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color:hsl(210, 10%, 33%);
+}
+.third-title p{
+    font-size: 1.8rem;
+    color:hsl(201, 11%, 66%);
+}
+.third-wrapped{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 4rem;
+}
+.third-info{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.third-info img{
+    margin-bottom: 4rem;
+}
+.third-info h3{
+    margin-bottom: 2.5rem;
+    color:hsl(210, 10%, 33%);
+}
+.third-info:nth-child(2) img{
+    margin-bottom:4.8rem;
+}
+.third-info:nth-child(3) img{
+    margin-bottom:4.8rem;
+}
+.third-info p{
+    text-align: center;
+    line-height: 1.8;
+    color:hsl(201, 11%, 66%);
+}
+.third-info:nth-child(1) p {
+    width:90%;
+}
+
+/*----FOURTH----*/
+.fourth-content{
+    margin-top: 12rem;
+}
+.fourth-wrapped{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*----FIFTH----*/
+.fifth-content{
+    margin: 15rem 0;
+}
+.fifth-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fifth-info h2{
+    margin:0;
+    padding-bottom:2rem;
+    font-size: 3.5rem;
+    color: hsl(210, 10%, 33%)
+}
+.fifth-info p{
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.8rem;
+    width:60%;
+    color: hsl(201, 11%, 66%);
+    padding-bottom:5rem;
+}
+.fifth-buttons{
+    display: flex;
+    column-gap: 4rem;
+}
+.btn-fifth-1{
+    background-color: #26baa4;
+    padding: 1.5rem 3.8rem;
+    border-radius: 50px;
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 600;
+    border-bottom: 4px solid #26baa4;
+    transition: all 0.4s ease-in-out;
+
+}
+.btn-fifth-1:hover{
+    background-color:#59c9b8;
+}
+.btn-fifth-2{
+    background-color: #6173ff;
+    padding: 1.5rem 3.8rem;
+    border-radius: 50px;
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 600;
+    border-bottom: 4px solid #6173ff;
+    transition: all 0.4s ease-in-out;
+}
+.btn-fifth-2:hover{
+    background-color: #7d8bf7;
+}
+
+/*----FOOTER----*/
+.footer{
+    background-color:#f5f6f8;
+    padding:4rem 0;
+}
+.footer-content{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-logo{
+    width:60px;
+    margin-right: 15rem;
+}
+.footer-nav{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:8rem;
+    row-gap: 2rem;
+}
+.footer-items{
+    text-decoration: none;
+    color:hsl(201, 11%, 66%);
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+.footer-items:hover{
+    color:#26bba4;
+}
+.footer-social{
+    display:flex;
+    align-items: center;
+    column-gap: 2rem;
+    margin-left: 39rem;
+}
+.social-media i{
+    font-size: 2.5rem;
+    cursor:pointer;
+    color:hsl(210, 10%, 33%);
+    transition: all 0.4s ease-in-out;
+}
+.social-media i:hover{
+    color:#26baa4;
+}
